@@ -5,7 +5,12 @@ var indextwo;
 
 const musicians = ["John Lennon", "Paul McCartney", "George Harrison", "Ringo Starr"];
 const instruments = ["Guitar", "Bass Guitar", "Lead Guitar", "Drums"];
+<<<<<<< HEAD
 
+=======
+const facts = ["He was the last Beatle to learn to drive","He was never a vegetarian", "He was a choir boy and boy scout", "He hated the sound of his own voice"
+];
+>>>>>>> ed21a96c424cb53d870d0127eb6b896f93f65055
 
 
 
@@ -27,12 +32,17 @@ function theBeatlesPlay()
 
 
 
+<<<<<<< HEAD
 function johnLennonFacts(Array) 
+=======
+function johnLennonFacts() 
+>>>>>>> ed21a96c424cb53d870d0127eb6b896f93f65055
 {
   var emptyarrayfacts = [];
   var i = 0;
 
   
+<<<<<<< HEAD
   while (i < Array.length)
   {
      var elment = Array[i] + '!!!' ;
@@ -40,6 +50,15 @@ function johnLennonFacts(Array)
           i = i + 1;
 
      if (emptyarrayfacts.length === Array.length)
+=======
+  while (i < facts.length)
+  {
+     var elment = facts[i] + '!!!' ;
+     emptyarrayfacts.push(elment);
+          i = i + 1;
+
+     if (emptyarrayfacts.length === 4)
+>>>>>>> ed21a96c424cb53d870d0127eb6b896f93f65055
      {
             return emptyarrayfacts
      }
@@ -48,6 +67,7 @@ function johnLennonFacts(Array)
 }
 
 
+<<<<<<< HEAD
 
 function iLoveTheBeatles(n) 
 {
@@ -76,3 +96,5 @@ function iLoveTheBeatles(n)
 }
 
 
+=======
+>>>>>>> ed21a96c424cb53d870d0127eb6b896f93f65055
